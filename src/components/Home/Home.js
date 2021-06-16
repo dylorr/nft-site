@@ -8,11 +8,11 @@ function Home() {
       <section className='fullscreen'>
         <Container fluid className="home-section" id="home">
           <Particle/>
-          <Container className="home-content" style={{ marginBottom: 300}}>
+          <Container className="home-content" style={{ marginBottom: '20%'}}>
             <Row>
               <Col md={{span:10, offset:1}} className="home-header text-center">
 
-                <h1 style={{ paddingBottom: 1 }} className="heading">
+                <h1 style={{ textAlign: 'center'}} className="heading">
                   All your <span className="green">nft</span> news, consolidated in one place.
                 </h1>
                 <h6 style={{ paddingBottom: 15 }} className="subtitle-home">
