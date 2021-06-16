@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 function Home() {
     return (
-      <section className='fullscreen'>
+      <section>
         <Container fluid className="home-section" id="home">
           <Particle/>
           <Container className="home-content" style={{ marginBottom: '20%'}}>
