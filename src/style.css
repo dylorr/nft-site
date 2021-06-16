@@ -7,10 +7,7 @@ html {
     
   }
 
-  .btn-discord:hover {
-    background-color: #37BC61 !important;
-    color: rgb(17, 17, 17) !important;
-}
+
 
   .pulse {
     animation: pulse-animation 3.5s infinite;
@@ -18,11 +15,11 @@ html {
   
   @keyframes pulse-animation {
     0% {
-      box-shadow: 0 0 0 0px rgb(190, 241, 206, 0.5);
+      box-shadow: 0 0 0 0px rgba(190, 241, 206, 0.671);
     }
 
     50% {
-        box-shadow: 0 0 0 0px rgba(115, 143, 124, 0.1);
+        box-shadow: 0 0 0 0px rgba(115, 143, 124, 0.329);
       }
 
     100% {
@@ -267,7 +264,7 @@ html {
   
   .home-section {
     position: relative;
-    z-index: -1;
+    z-index: 1;
     /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
     background-position: top center;
     background-repeat: no-repeat;
@@ -846,6 +843,16 @@ html {
     color: #37BC61 !important;
     border-color: #37BC61 !important; 
     font-weight: 500 !important;
+}
+
+.btn-discord:hover,
+.btn-discord:active,
+.btn-discord:focus
+{
+    background-color: #37BC61 !important;
+    color: rgb(17, 17, 17) !important;
+    transform: scale(1.1) !important;
+
 }
 
 .subtitle-home{

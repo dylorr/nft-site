@@ -18,7 +18,7 @@ function Home() {
                 <h6 style={{ paddingBottom: 15 }} className="subtitle-home">
                   Daily digest, project alerts and informational updates.
                 </h6>
-                <Button variant='outline-dark' className="pulse btn-discord">Join Discord </Button>
+                <Button variant='outline-dark' className=" btn btn-discord pulse" href="https://discord.com/invite/tEAMRKSKUX">Join Discord </Button>
               </Col>
             </Row>
           </Container>
