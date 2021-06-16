@@ -2,6 +2,11 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import HomeBottom from "./HomeBottom";
 import Particle from "../Particle";
+import Discord from "../../assets/discord.png"
+
+import {
+  FaDiscord,
+} from "react-icons/fa";
 
 function Home() {
     return (
@@ -17,10 +22,11 @@ function Home() {
                 <h6 style={{ paddingBottom: 15 }} className="subtitle-home">
                   Daily digests, project alerts and due diligence.
                 </h6>
-                <Button variant='outline-dark' className=" btn btn-discord pulse" href="https://discord.com/invite/tEAMRKSKUX">Join Discord </Button>
+                <Button variant='outline-dark' className=" btn btn-discord pulse" href="https://discord.com/invite/tEAMRKSKUX"><FaDiscord className='discord-logo'/>Join Community </Button>
               </Col>
             </Row>
           </Container>
+          
         </Container>
         <HomeBottom/>
       </section>

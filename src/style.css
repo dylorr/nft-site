@@ -1,9 +1,7 @@
 html {
     --imp-text-color: #c770f0; 
   }
-
-
-
+  
   .pulse {
     animation: pulse-animation 3.5s infinite;
   }
@@ -843,7 +841,7 @@ html {
 
 .btn-discord:hover,
 .btn-discord:active,
-.btn-discord:focus
+.btn-discord:focus 
 {
     background-color: #37BC61 !important;
     color: rgb(17, 17, 17) !important;
@@ -881,4 +879,8 @@ html {
     margin-left: auto !important;
     justify-content: center !important;
     align-items: center !important;
+}
+.discord-logo{
+  margin-right: 5px;
+  height: 15px;
 }
