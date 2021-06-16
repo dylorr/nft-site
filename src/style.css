@@ -875,6 +875,7 @@ html {
 }
 
 .social-footer{
+    z-index: 1;
     bottom: 0 !important;
     position: fixed;
     left: 0;
