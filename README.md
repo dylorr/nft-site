@@ -1,1 +1,1 @@
-## Landing page site for Discord Serverr
+## 🔉 Landing page site for Discord Server
