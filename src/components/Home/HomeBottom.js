@@ -11,6 +11,12 @@ import {
   FaDiscord, FaTshirt, FaShoppingCart
 } from "react-icons/fa";
 
+import {
+  BsBarChartFill
+}
+  from "react-icons/bs";
+
+
 function HomeBottom(){
 
   
@@ -51,7 +57,14 @@ function HomeBottom(){
                 </a>
               </li>
               <li className="social-icons">
-                
+                <a
+                  href="https://coinmarketcap.com/currencies/based-gold/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <BsBarChartFill/>
+                </a>
               </li>
             </ul>
 
