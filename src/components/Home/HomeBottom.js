@@ -8,9 +8,8 @@ import {
 
 import {ReactComponent as OpenSea} from "../../assets/opensea.svg";
 import {
-  FaDiscord
+  FaDiscord, FaTshirt, FaShoppingCart
 } from "react-icons/fa";
-
 
 function HomeBottom(){
 
@@ -31,10 +30,27 @@ function HomeBottom(){
                   <FaDiscord />
                 </a>
               </li>
+             {/*  <li className="social-icons">
+                <a
+                  href="https://bloot.shop/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaTshirt/>
+                </a>
+              </li> */}
               <li className="social-icons">
-
+                <a
+                  href="https://opensea.io/collection/blootofficial?collectionSlug=blootofficial&search[sortAscending]=true&search[sortBy]=PRICE&search[toggles][0]=BUY_NOW"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaShoppingCart/>
+                </a>
               </li>
-              <li className="social-icons"> 
+              <li className="social-icons">
                 
               </li>
             </ul>
