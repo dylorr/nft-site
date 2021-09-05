@@ -272,9 +272,10 @@ html {
   }
 
   .green{
-      color:#37BC61;
-      font-family: VT323;
-      font-size: 1.2em;
+      color:#01ff01;
+      font-family: 'EB Garamond', serif;;
+      font-size: 2.5em;
+      
   }
   
   .heading {
@@ -391,13 +392,13 @@ html {
   
   .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #37BC61;
+    box-shadow: 0 0 15px #01ff01;
   }
   
   .home-social-icons:hover {
     color: #37BC61;
-    box-shadow: 0 0 5px #37BC61;
-    text-shadow: 0 0 2px #37BC61;
+    box-shadow: 0 0 5px #01ff01;
+    text-shadow: 0 0 2px #01ff01;
   }
   
   .social-icons {
@@ -407,7 +408,7 @@ html {
   }
   
   .icon-colour {
-    color: #37BC61 !important;
+    color: #01ff01 !important;
   }
   
   /* --------- */
@@ -834,16 +835,17 @@ html {
 .btn-discord {
     border-radius: 1rem !important;
     padding: .5rem 1rem !important;
-    color: #37BC61 !important;
-    border-color: #37BC61 !important; 
+    color: #01ff01 !important;
+    border-color: #01ff01 !important; 
     font-weight: 500 !important;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .btn-discord:hover,
 .btn-discord:active,
 .btn-discord:focus 
 {
-    background-color: #37BC61 !important;
+    background-color: #01ff01 !important;
     color: rgb(17, 17, 17) !important;
     transform: scale(1.1) !important;
 
@@ -851,6 +853,9 @@ html {
 
 .subtitle-home{
     font-weight: 300 !important;
+    font-family: 'Times New Roman', Times, serif;
+    color:#01ff01;
+    font-size: 1.2em;
 }
 
 .home-section-2 {
@@ -865,6 +870,21 @@ html {
 .fullscreen{
     height: 100vh !important;
 
+}
+
+.opensea{
+  text-align: center;
+  z-index: 5 !important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 
 .social-footer{
@@ -883,4 +903,5 @@ html {
 .discord-logo{
   margin-right: 5px;
   height: 15px;
+
 }

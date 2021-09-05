@@ -5,8 +5,12 @@ import Particle from "../Particle";
 import Discord from "../../assets/discord.png"
 
 import {
-  FaDiscord,
+  FaDiscord, FaCoins
 } from "react-icons/fa";
+
+import {
+  GrMoney
+} from "react-icons/gr";
 
 function Home() {
     return (
@@ -17,12 +21,12 @@ function Home() {
             <Row>
               <Col md={{span:10, offset:1}} className="home-header text-center">
                 <h1 style={{ textAlign: 'center'}} className="heading">
-                  All your <span className="green">nft</span> news, contextualized.
+                   <span className="green">Bloot</span>
                 </h1>
                 <h6 style={{ paddingBottom: 15 }} className="subtitle-home">
-                  Daily digests, project alerts and due diligence.
+                It's basically worthless.
                 </h6>
-                <Button variant='outline-dark' className=" btn btn-discord pulse" href="https://discord.com/invite/tEAMRKSKUX"><FaDiscord className='discord-logo'/>Join Community </Button>
+                <Button variant='outline-dark' className=" btn btn-discord pulse" href="https://docs.google.com/forms/d/e/1FAIpQLSd4_87W-3Mza1x2IaNgPMXXXGImtEqKKOslX0XSk7rGhbg6wA/viewform"><FaCoins className='discord-logo'/>Apply to the Bloot Fund </Button>
               </Col>
             </Row>
           </Container>

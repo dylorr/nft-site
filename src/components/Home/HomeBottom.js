@@ -6,41 +6,36 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 
+import {ReactComponent as OpenSea} from "../../assets/opensea.svg";
+import {
+  FaDiscord
+} from "react-icons/fa";
+
+
 function HomeBottom(){
+
+  
   return(
   <Container className='social-footer'>
+    
     <Row>
       <Col  className="home-about-social">
       <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/hunterorrell"
+                  href="https://discord.gg/bloot"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaDiscord />
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.youtube.com/user/HunterOrrell"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillYoutube />
-                </a>
+
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/hunterorrell"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
+              <li className="social-icons"> 
+                
               </li>
             </ul>
 
