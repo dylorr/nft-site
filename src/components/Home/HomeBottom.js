@@ -26,6 +26,17 @@ function HomeBottom(){
     <Row>
       <Col  className="home-about-social">
       <ul className="home-about-social-links">
+      <li className="social-icons">
+                <a
+                  href="https://twitter.com/TeamBloot"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineTwitter />
+                </a>
+              </li> 
+              
               <li className="social-icons">
                 <a
                   href="https://discord.gg/bloot"
