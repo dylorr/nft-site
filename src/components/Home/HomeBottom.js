@@ -64,7 +64,7 @@ function HomeBottom(){
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaShoppingCart/>
+                  <OpenSea />
                 </a>
               </li>
               <li className="social-icons">
